@@ -2,6 +2,11 @@
 
 num = (input("Enter the number: "))
 
+num_list = []
  
- 
+for i in num:
+    num_list.append(i)
+
+print(num_list)   
+    
    

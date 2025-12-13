@@ -3,7 +3,9 @@
 
 user_input = input("Enter the string: ")
 
-a = len(user_input)
+reverse_input = user_input[::-1]
 
-if a%2 == 0:
-    b = a/2
+if user_input == reverse_input:
+    print("Wow! It's a palindrome")
+else:
+    print("It's not a palindrome!")    

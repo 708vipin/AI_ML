@@ -1,7 +1,7 @@
 #Ask the user for a string and check whether it is a palindrome or not?
 #A Palindrome is a string that is same when read either from the forwards or from the backwards.
 
-user_input = input("Enter the string: ")
+user_input = input("Enter the string: ").lower()
 
 reverse_input = user_input[::-1]
 

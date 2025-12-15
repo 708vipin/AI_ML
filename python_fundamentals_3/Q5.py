@@ -12,4 +12,13 @@ stu_dict = {
     "Vipin": 100
 }
 
-print(type(stu_dict))
+user_input = input("Enter either A, B, C, D: ")
+
+if user_input == "A":
+    print("Add")
+elif user_input == "B":
+    print("Update")
+elif user_input == "C":
+    print("Search")
+elif user_input == "D":
+    print("display all student")            

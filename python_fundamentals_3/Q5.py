@@ -22,4 +22,4 @@ elif user_input == "C":
     print("Search")
 elif user_input == "D":
     print("display all student")  
-    fff          
+          

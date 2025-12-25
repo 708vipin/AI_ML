@@ -2,4 +2,4 @@
 # words =["apple","banana","kiwi","cherry","mango"]
 # Create a dictionary that maps each word to its length
 
-#Trying to do this evreyday at least by some amount.
+#Trying to do this evreyday at least by some amount....

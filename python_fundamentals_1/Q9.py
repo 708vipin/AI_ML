@@ -1,5 +1,5 @@
 #Ask the user for: Principal(P), Rate(R), Time(T). Convert all to FLOAT and compute simple interest
-#Formula is, S.I = (P*R*T)/100...........
+#Formula is, S.I = (P*R*T)/100.................
 
 principal_P = float(input("Enter the Principal Amount: "))
 rate_R = float(input("Enter the interest rate: "))

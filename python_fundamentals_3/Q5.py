@@ -6,6 +6,7 @@
 # B - update marks
 # C - search for a student
 # D - Display all students and marks
+#........................
 
 stu_dict = {
     "Rahul": 90,

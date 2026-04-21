@@ -1,0 +1,3 @@
+Create a virtual environment.
+Activate the virtual environment.
+Install the dependencies.

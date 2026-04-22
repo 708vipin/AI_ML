@@ -1,6 +1,5 @@
 import streamlit as st
-
-def style_base_layout():
+def style_background_home():
 
 
     st.markdown("""
@@ -11,6 +10,112 @@ def style_base_layout():
                 
                 }
                 
+                
+                
+                
+                </style>       
+                
+
+
+    """, unsafe_allow_html=True)
+
+
+def style_background_dashboard():
+
+
+     st.markdown("""
+            <style>
+                
+                .stApp{
+                      background: #E0E3FF !important;                
+                
+                }
+                
+                
+                
+                
+                </style>       
+                
+
+
+    """, unsafe_allow_html=True)
+
+
+
+def style_base_layout():
+
+
+     st.markdown("""
+            <style>
+                 
+                 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+                 @import url('https://fonts.googleapis.com/css2?family=family=Outfit:wght@100..900&display=swap');
+                 /*Hide top bar of Streamlit*/
+
+
+                 #MainMenu, header, footer{
+                 visibility: hidden;}
+
+                 .block-container{
+                     padding-top:1.5 rem  !important;
+                 }
+        
+                h1{
+                  font-family: 'Climate Crisis', 'sans-serif' !important;
+                  font-size: 3.5 rem !important;
+                  line-height: 1.1 !important;
+                  margin-bottom:0 !important;
+                }
+
+
+                 
+                h2{
+                  font-family: 'Climate Crisis', 'sans-serif' !important;
+                  font-size: 3.5rem !important;
+                  line-height: 1.1 !important;
+                  margin-bottom:0 !important;
+                }
+
+                h3, h4, p{
+                  font-family: 'Outfit', sans-serif;
+                    } 
+                 
+                button{
+                  background:  #5865F2 !important;
+                  border-radius:  1.5rem !important;
+                  color:  white !important;
+                  padding:  10px 20px !important;
+                  border:  none !important;
+                  transition:  0.25s ease-in-out !important;
+                 
+                 }
+
+                button[kind ="secondary"] {
+                  background:  #EB459E !important;
+                  border-radius:  1.5rem !important;
+                  color:  white !important;
+                  padding:  10px 20px !important;
+                  border:  none !important;
+                  transition:  0.25s ease-in-out !important;
+                 
+                 }
+
+
+                 
+                button[kind ="tertiary"] {
+                  background:  black !important;
+                  border-radius:  1.5rem !important;
+                  color:  white !important;
+                  padding:  10px 20px !important;
+                  border:  none !important;
+                  transition:  0.25s ease-in-out !important;
+                 
+                 }
+
+
+                button:hover{
+                 transform: scale (1.05)
+                 }
                 
                 
                 

@@ -3,12 +3,12 @@ import streamlit as st
 
 def header_home():
 
-    logo_url = r"C:\Users\pvipi\Desktop\VIP_GitHub\AI_ML\projects_module\intelligent_AI_attendance_system_face & voice\images\logo.png"
+    logo_url = r"https://github.com/shradha-khapra/ai-attendance-project-landing/blob/main/static/img/logo.png?raw=true" 
     
     st.markdown(f"""
 
                 <div>
-              <img src='{logo_url}' height:100px; />
+              <img src='{logo_url}' style = "height:100px;" />
               </div>
               
               

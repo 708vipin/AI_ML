@@ -1,0 +1,4 @@
+1. Installing dependencies: The image model one while installing it from GitHub.
+2. Rendering the yellow passing cap icon on home page. 
+ a. I saved the image in a folder inside project. But it could not be rendered.
+ b. When I copied the link from GitHub and pasted it in code, it worked magically.

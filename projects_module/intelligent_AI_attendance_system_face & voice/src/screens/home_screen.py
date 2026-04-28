@@ -3,6 +3,7 @@ import streamlit as st
 from src.components.header import header_home
 from src.ui.base_layout import style_base_layout
 from src.ui.base_layout import style_background_home
+from src.components.footer import footer_home
 
 
 def home_screen():
@@ -32,3 +33,6 @@ def home_screen():
         if st.button("Student portal", type='primary'):
             st.session_state['login_type']='student'
             st.rerun()
+
+
+    footer_home()        

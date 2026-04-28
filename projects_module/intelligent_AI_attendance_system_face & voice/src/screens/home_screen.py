@@ -20,11 +20,14 @@ def home_screen():
     col1, col2 = st.columns(2)
 
     with col1:
+        st.header("I'm Teacher")
+        st.image("https://github.com/shradha-khapra/ai-attendance-project-landing/blob/main/static/img/demo/snap-teacher.png")
         if st.button("Teacher portal"):
             st.session_state['login_type']='teacher'
             st.rerun()
 
     with col2:
+        st.header("I'm student")
         if st.button("Student portal"):
             st.session_state['login_type']='student'
             st.rerun()

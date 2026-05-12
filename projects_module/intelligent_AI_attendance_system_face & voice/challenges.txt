@@ -4,3 +4,4 @@
  b. When I copied the link from GitHub and pasted it in code, it worked magically.
 3. Rendering teacher and student icon on home page. I tried to copy the gitHub link from the Codebase provided and pasted it under 
 st.image("") but it didn't got rendered. 
+After a break of more than a week, I've started again on 12 May 2026.

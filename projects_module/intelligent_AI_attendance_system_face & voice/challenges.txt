@@ -5,3 +5,5 @@
 3. Rendering teacher and student icon on home page. I tried to copy the gitHub link from the Codebase provided and pasted it under 
 st.image("") but it didn't got rendered. 
 After a break of more than a week, I've started again on 12 May 2026.
+5. After creating tables on supabase, when I clicked on the connect button, it the screen didn't showed the same as tutor's.
+in my screen it was asking "how you want to use supabase, while in hamza's screen it showed project url"
